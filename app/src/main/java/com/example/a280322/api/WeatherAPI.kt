@@ -12,5 +12,5 @@ interface WeatherAPI {
         cityName: String,
         @Query("appid")
         appId: String
-    ): Call<WeatherData>?
+    ): Call<WeatherData>
 }
